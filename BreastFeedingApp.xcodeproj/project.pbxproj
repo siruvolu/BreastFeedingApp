@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BF60D31BEC802300CA97FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60D21BEC802300CA97FD /* main.m */; };
+		04BF60D61BEC802400CA97FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60D51BEC802400CA97FD /* AppDelegate.m */; };
+		04BF60D91BEC802400CA97FD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60D81BEC802400CA97FD /* FirstViewController.m */; };
+		04BF60DC1BEC802400CA97FD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60DB1BEC802400CA97FD /* SecondViewController.m */; };
+		04BF60DF1BEC802400CA97FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF60DD1BEC802400CA97FD /* Main.storyboard */; };
+		04BF60E11BEC802400CA97FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BF60E01BEC802400CA97FD /* Assets.xcassets */; };
+		04BF60E41BEC802400CA97FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF60E21BEC802400CA97FD /* LaunchScreen.storyboard */; };
+		04BF60EF1BEC802400CA97FD /* BreastFeedingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60EE1BEC802400CA97FD /* BreastFeedingAppTests.m */; };
+		04BF60FA1BEC802400CA97FD /* BreastFeedingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60F91BEC802400CA97FD /* BreastFeedingAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BF60EB1BEC802400CA97FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF60C61BEC802300CA97FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF60CD1BEC802300CA97FD;
+			remoteInfo = BreastFeedingApp;
+		};
+		04BF60F61BEC802400CA97FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF60C61BEC802300CA97FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF60CD1BEC802300CA97FD;
+			remoteInfo = BreastFeedingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BF60CE1BEC802300CA97FD /* BreastFeedingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreastFeedingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF60D21BEC802300CA97FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BF60D41BEC802400CA97FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BF60D51BEC802400CA97FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BF60D71BEC802400CA97FD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04BF60D81BEC802400CA97FD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04BF60DA1BEC802400CA97FD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04BF60DB1BEC802400CA97FD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04BF60DE1BEC802400CA97FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BF60E01BEC802400CA97FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BF60E31BEC802400CA97FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BF60E51BEC802400CA97FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF60EA1BEC802400CA97FD /* BreastFeedingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreastFeedingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF60EE1BEC802400CA97FD /* BreastFeedingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreastFeedingAppTests.m; sourceTree = "<group>"; };
+		04BF60F01BEC802400CA97FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF60F51BEC802400CA97FD /* BreastFeedingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreastFeedingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF60F91BEC802400CA97FD /* BreastFeedingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreastFeedingAppUITests.m; sourceTree = "<group>"; };
+		04BF60FB1BEC802400CA97FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BF60CB1BEC802300CA97FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF60E71BEC802400CA97FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF60F21BEC802400CA97FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BF60C51BEC802300CA97FD = {
+			isa = PBXGroup;
+			children = (
+				04BF60D01BEC802300CA97FD /* BreastFeedingApp */,
+				04BF60ED1BEC802400CA97FD /* BreastFeedingAppTests */,
+				04BF60F81BEC802400CA97FD /* BreastFeedingAppUITests */,
+				04BF60CF1BEC802300CA97FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BF60CF1BEC802300CA97FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BF60CE1BEC802300CA97FD /* BreastFeedingApp.app */,
+				04BF60EA1BEC802400CA97FD /* BreastFeedingAppTests.xctest */,
+				04BF60F51BEC802400CA97FD /* BreastFeedingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BF60D01BEC802300CA97FD /* BreastFeedingApp */ = {
+			isa = PBXGroup;
+			children = (
+				04BF60D41BEC802400CA97FD /* AppDelegate.h */,
+				04BF60D51BEC802400CA97FD /* AppDelegate.m */,
+				04BF60D71BEC802400CA97FD /* FirstViewController.h */,
+				04BF60D81BEC802400CA97FD /* FirstViewController.m */,
+				04BF60DA1BEC802400CA97FD /* SecondViewController.h */,
+				04BF60DB1BEC802400CA97FD /* SecondViewController.m */,
+				04BF60DD1BEC802400CA97FD /* Main.storyboard */,
+				04BF60E01BEC802400CA97FD /* Assets.xcassets */,
+				04BF60E21BEC802400CA97FD /* LaunchScreen.storyboard */,
+				04BF60E51BEC802400CA97FD /* Info.plist */,
+				04BF60D11BEC802300CA97FD /* Supporting Files */,
+			);
+			path = BreastFeedingApp;
+			sourceTree = "<group>";
+		};
+		04BF60D11BEC802300CA97FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BF60D21BEC802300CA97FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BF60ED1BEC802400CA97FD /* BreastFeedingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF60EE1BEC802400CA97FD /* BreastFeedingAppTests.m */,
+				04BF60F01BEC802400CA97FD /* Info.plist */,
+			);
+			path = BreastFeedingAppTests;
+			sourceTree = "<group>";
+		};
+		04BF60F81BEC802400CA97FD /* BreastFeedingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF60F91BEC802400CA97FD /* BreastFeedingAppUITests.m */,
+				04BF60FB1BEC802400CA97FD /* Info.plist */,
+			);
+			path = BreastFeedingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BF60CD1BEC802300CA97FD /* BreastFeedingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF60FE1BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingApp" */;
+			buildPhases = (
+				04BF60CA1BEC802300CA97FD /* Sources */,
+				04BF60CB1BEC802300CA97FD /* Frameworks */,
+				04BF60CC1BEC802300CA97FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreastFeedingApp;
+			productName = BreastFeedingApp;
+			productReference = 04BF60CE1BEC802300CA97FD /* BreastFeedingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BF60E91BEC802400CA97FD /* BreastFeedingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF61011BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingAppTests" */;
+			buildPhases = (
+				04BF60E61BEC802400CA97FD /* Sources */,
+				04BF60E71BEC802400CA97FD /* Frameworks */,
+				04BF60E81BEC802400CA97FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF60EC1BEC802400CA97FD /* PBXTargetDependency */,
+			);
+			name = BreastFeedingAppTests;
+			productName = BreastFeedingAppTests;
+			productReference = 04BF60EA1BEC802400CA97FD /* BreastFeedingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BF60F41BEC802400CA97FD /* BreastFeedingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF61041BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingAppUITests" */;
+			buildPhases = (
+				04BF60F11BEC802400CA97FD /* Sources */,
+				04BF60F21BEC802400CA97FD /* Frameworks */,
+				04BF60F31BEC802400CA97FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF60F71BEC802400CA97FD /* PBXTargetDependency */,
+			);
+			name = BreastFeedingAppUITests;
+			productName = BreastFeedingAppUITests;
+			productReference = 04BF60F51BEC802400CA97FD /* BreastFeedingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BF60C61BEC802300CA97FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Anil Siruvolu";
+				TargetAttributes = {
+					04BF60CD1BEC802300CA97FD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					04BF60E91BEC802400CA97FD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 04BF60CD1BEC802300CA97FD;
+					};
+					04BF60F41BEC802400CA97FD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 04BF60CD1BEC802300CA97FD;
+					};
+				};
+			};
+			buildConfigurationList = 04BF60C91BEC802300CA97FD /* Build configuration list for PBXProject "BreastFeedingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BF60C51BEC802300CA97FD;
+			productRefGroup = 04BF60CF1BEC802300CA97FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BF60CD1BEC802300CA97FD /* BreastFeedingApp */,
+				04BF60E91BEC802400CA97FD /* BreastFeedingAppTests */,
+				04BF60F41BEC802400CA97FD /* BreastFeedingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BF60CC1BEC802300CA97FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF60E41BEC802400CA97FD /* LaunchScreen.storyboard in Resources */,
+				04BF60E11BEC802400CA97FD /* Assets.xcassets in Resources */,
+				04BF60DF1BEC802400CA97FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF60E81BEC802400CA97FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF60F31BEC802400CA97FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BF60CA1BEC802300CA97FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF60DC1BEC802400CA97FD /* SecondViewController.m in Sources */,
+				04BF60D61BEC802400CA97FD /* AppDelegate.m in Sources */,
+				04BF60D91BEC802400CA97FD /* FirstViewController.m in Sources */,
+				04BF60D31BEC802300CA97FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF60E61BEC802400CA97FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF60EF1BEC802400CA97FD /* BreastFeedingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF60F11BEC802400CA97FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF60FA1BEC802400CA97FD /* BreastFeedingAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BF60EC1BEC802400CA97FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF60CD1BEC802300CA97FD /* BreastFeedingApp */;
+			targetProxy = 04BF60EB1BEC802400CA97FD /* PBXContainerItemProxy */;
+		};
+		04BF60F71BEC802400CA97FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF60CD1BEC802300CA97FD /* BreastFeedingApp */;
+			targetProxy = 04BF60F61BEC802400CA97FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BF60DD1BEC802400CA97FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF60DE1BEC802400CA97FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BF60E21BEC802400CA97FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF60E31BEC802400CA97FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BF60FC1BEC802400CA97FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BF60FD1BEC802400CA97FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BF60FF1BEC802400CA97FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreastFeedingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beubel.BreastFeedingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BF61001BEC802400CA97FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreastFeedingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beubel.BreastFeedingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BF61021BEC802400CA97FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreastFeedingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beubel.BreastFeedingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreastFeedingApp.app/BreastFeedingApp";
+			};
+			name = Debug;
+		};
+		04BF61031BEC802400CA97FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreastFeedingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beubel.BreastFeedingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreastFeedingApp.app/BreastFeedingApp";
+			};
+			name = Release;
+		};
+		04BF61051BEC802400CA97FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreastFeedingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beubel.BreastFeedingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreastFeedingApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04BF61061BEC802400CA97FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreastFeedingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beubel.BreastFeedingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreastFeedingApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BF60C91BEC802300CA97FD /* Build configuration list for PBXProject "BreastFeedingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF60FC1BEC802400CA97FD /* Debug */,
+				04BF60FD1BEC802400CA97FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF60FE1BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF60FF1BEC802400CA97FD /* Debug */,
+				04BF61001BEC802400CA97FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BF61011BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF61021BEC802400CA97FD /* Debug */,
+				04BF61031BEC802400CA97FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BF61041BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF61051BEC802400CA97FD /* Debug */,
+				04BF61061BEC802400CA97FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BF60C61BEC802300CA97FD /* Project object */;
+}

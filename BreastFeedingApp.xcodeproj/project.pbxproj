@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B3EFE41C109A88003F56F6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B3EFE31C109A88003F56F6 /* libsqlite3.tbd */; };
+		04B3EFE61C109AE6003F56F6 /* bfdata.sql in Resources */ = {isa = PBXBuildFile; fileRef = 04B3EFE51C109AE6003F56F6 /* bfdata.sql */; };
+		04B3EFE91C109B12003F56F6 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3EFE81C109B12003F56F6 /* DBManager.m */; };
 		04BF60D31BEC802300CA97FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60D21BEC802300CA97FD /* main.m */; };
 		04BF60D61BEC802400CA97FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60D51BEC802400CA97FD /* AppDelegate.m */; };
 		04BF60D91BEC802400CA97FD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF60D81BEC802400CA97FD /* FirstViewController.m */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B3EFE31C109A88003F56F6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04B3EFE51C109AE6003F56F6 /* bfdata.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = bfdata.sql; path = ../../../../../../Users/Anil/Desktop/bfdata.sql; sourceTree = "<group>"; };
+		04B3EFE71C109B12003F56F6 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		04B3EFE81C109B12003F56F6 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 		04BF60CE1BEC802300CA97FD /* BreastFeedingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreastFeedingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BF60D21BEC802300CA97FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04BF60D41BEC802400CA97FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B3EFE41C109A88003F56F6 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +92,7 @@
 		04BF60C51BEC802300CA97FD = {
 			isa = PBXGroup;
 			children = (
+				04B3EFE31C109A88003F56F6 /* libsqlite3.tbd */,
 				04BF60D01BEC802300CA97FD /* BreastFeedingApp */,
 				04BF60ED1BEC802400CA97FD /* BreastFeedingAppTests */,
 				04BF60F81BEC802400CA97FD /* BreastFeedingAppUITests */,
@@ -104,6 +113,7 @@
 		04BF60D01BEC802300CA97FD /* BreastFeedingApp */ = {
 			isa = PBXGroup;
 			children = (
+				04B3EFE51C109AE6003F56F6 /* bfdata.sql */,
 				04BF60D41BEC802400CA97FD /* AppDelegate.h */,
 				04BF60D51BEC802400CA97FD /* AppDelegate.m */,
 				04BF60D71BEC802400CA97FD /* FirstViewController.h */,
@@ -115,6 +125,8 @@
 				04BF60E21BEC802400CA97FD /* LaunchScreen.storyboard */,
 				04BF60E51BEC802400CA97FD /* Info.plist */,
 				04BF60D11BEC802300CA97FD /* Supporting Files */,
+				04B3EFE71C109B12003F56F6 /* DBManager.h */,
+				04B3EFE81C109B12003F56F6 /* DBManager.m */,
 			);
 			path = BreastFeedingApp;
 			sourceTree = "<group>";
@@ -250,6 +262,7 @@
 			files = (
 				04BF60E41BEC802400CA97FD /* LaunchScreen.storyboard in Resources */,
 				04BF60E11BEC802400CA97FD /* Assets.xcassets in Resources */,
+				04B3EFE61C109AE6003F56F6 /* bfdata.sql in Resources */,
 				04BF60DF1BEC802400CA97FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +292,7 @@
 				04BF60D61BEC802400CA97FD /* AppDelegate.m in Sources */,
 				04BF60D91BEC802400CA97FD /* FirstViewController.m in Sources */,
 				04BF60D31BEC802300CA97FD /* main.m in Sources */,
+				04B3EFE91C109B12003F56F6 /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +516,7 @@
 				04BF61001BEC802400CA97FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BF61011BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +525,7 @@
 				04BF61031BEC802400CA97FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BF61041BEC802400CA97FD /* Build configuration list for PBXNativeTarget "BreastFeedingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +534,7 @@
 				04BF61061BEC802400CA97FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
